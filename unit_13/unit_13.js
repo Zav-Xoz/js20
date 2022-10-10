@@ -200,11 +200,11 @@ function f10(arr, val) {
 
     for (let key in arr) {
         if (val == arr[key]) {
+            // console.log(key)
             return true;
-        } else {
-            return false;
         }
     }
+    return false;
     //return true;
     //return false;
 }
